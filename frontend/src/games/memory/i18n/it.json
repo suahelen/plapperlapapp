@@ -1,0 +1,22 @@
+{
+  "name": "Memory",
+  "description": "Trova le coppie: una parola e la sua traduzione vanno insieme.",
+  "settings": { "pairs": "Numero di coppie" },
+  "progress": "{found} / {total} coppie · {attempts} tentativi",
+  "allFound": "Hai trovato tutte le coppie!",
+  "attempts": "{attempts} tentativi per {pairs} coppie",
+  "card": "Carta {n}",
+  "room": {
+    "intro": "Memory per 2–4 giocatori, ognuno sul proprio dispositivo. Chi trova una coppia gioca ancora.",
+    "youFound": "Hai trovato una coppia!",
+    "someoneFound": "{name} ha trovato una coppia!",
+    "noPair": "Nessuna coppia – tocca al prossimo",
+    "skipped": "{name} è stato saltato",
+    "tie": "Pareggio: {names}",
+    "youWin": "Hai vinto! 🏆",
+    "someoneWins": "{name} vince!",
+    "pairs": "Coppie",
+    "allFound": "Tutte le coppie sono state trovate.",
+    "yourTurn": "Tocca a te – gira due carte!"
+  }
+}

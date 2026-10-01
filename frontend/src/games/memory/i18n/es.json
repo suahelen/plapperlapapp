@@ -1,0 +1,22 @@
+{
+  "name": "Memoria",
+  "description": "Encuentra las parejas: una palabra y su traducción van juntas.",
+  "settings": { "pairs": "Número de parejas" },
+  "progress": "{found} / {total} parejas · {attempts} intentos",
+  "allFound": "¡Has encontrado todas las parejas!",
+  "attempts": "{attempts} intentos para {pairs} parejas",
+  "card": "Carta {n}",
+  "room": {
+    "intro": "Memoria para 2–4 jugadores, cada uno en su dispositivo. Quien encuentra una pareja vuelve a jugar.",
+    "youFound": "¡Has encontrado una pareja!",
+    "someoneFound": "¡{name} ha encontrado una pareja!",
+    "noPair": "No es pareja – siguiente turno",
+    "skipped": "Se ha saltado el turno de {name}",
+    "tie": "Empate: {names}",
+    "youWin": "¡Has ganado! 🏆",
+    "someoneWins": "¡{name} gana!",
+    "pairs": "Parejas",
+    "allFound": "Se han encontrado todas las parejas.",
+    "yourTurn": "Te toca – ¡da la vuelta a dos cartas!"
+  }
+}

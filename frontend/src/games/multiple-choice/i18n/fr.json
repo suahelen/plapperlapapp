@@ -1,0 +1,5 @@
+{
+  "name": "QCM",
+  "description": "Choisis la bonne traduction parmi plusieurs possibilités.",
+  "settings": { "answerCount": "Réponses possibles", "questionCount": "Nombre de questions" }
+}

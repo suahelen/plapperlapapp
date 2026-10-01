@@ -1,0 +1,42 @@
+{
+  "name": "Hundir la flota",
+  "description": "Dos jugadores en dos dispositivos: solo con la respuesta correcta se puede disparar. Ideal para tablas de conjugación.",
+  "intro": "Un juego para dos dispositivos. Para disparar a una casilla tienes que saber la respuesta correcta – p. ej. conjugar bien el verbo.",
+  "connected": "Conectado",
+  "connecting": "Conectando …",
+  "oppOffline": "Tu rival no está conectado ahora mismo. La partida sigue en cuanto vuelva.",
+  "yourFleet": "Tu flota",
+  "oppSea": "Mar del rival",
+  "oppFleet": "La flota del rival:",
+  "fleet": "{n} barcos ({sizes} casillas)",
+  "reshuffle": "Repartir de nuevo",
+  "ready": "¡Listo!",
+  "isReady": "✓ Listo",
+  "oppReady": "Tu rival está listo.",
+  "oppPlacing": "Tu rival todavía está colocando su flota …",
+  "yourTurn": "Te toca – ¡elige una casilla!",
+  "oppTurn": "Le toca a tu rival …",
+  "cell": "Casilla",
+  "won": "¡Has ganado! 🏆",
+  "lost": "Has perdido – ¡la próxima vez!",
+  "wonText": "Has hundido todos los barcos.",
+  "lostText": "Tu rival ha sido más rápido.",
+  "toast": {
+    "wrong": "Lo siento, es incorrecto – no hay disparo",
+    "miss": "Agua 💦",
+    "hit": "¡Tocado! 🔥 Dispara otra vez",
+    "sunk": "¡Hundido! 💥",
+    "oppWrong": "Tu rival se ha equivocado – te toca",
+    "oppMiss": "Tu rival solo ha dado en el agua",
+    "oppHit": "¡Te han tocado!",
+    "oppSunk": "¡Tu rival ha hundido un barco!"
+  },
+  "cellState": {
+    "blocked": "bloqueada",
+    "sunk": "hundido",
+    "hit": "tocado",
+    "miss": "agua",
+    "ship": "tu barco",
+    "water": "libre"
+  }
+}

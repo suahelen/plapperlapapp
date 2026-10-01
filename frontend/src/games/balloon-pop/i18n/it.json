@@ -1,0 +1,23 @@
+{
+  "name": "Scoppia palloncini",
+  "description": "Tocca il palloncino con la traduzione giusta prima che voli via.",
+  "settings": {
+    "balloons": "Palloncini per round",
+    "speed": "Velocità",
+    "slow": "Tranquilla",
+    "normal": "Normale",
+    "fast": "Veloce",
+    "lives": "Vite",
+    "rounds": "Round"
+  },
+  "intro": "In alto c'è una parola. Tocca il palloncino con la traduzione giusta prima che voli via! I palloncini sbagliati costano una vita.",
+  "roundsLives": "{rounds} round · {lives} vite",
+  "livesLabel": "{n} vita | {n} vite",
+  "start": "Via",
+  "escaped": "È volato via!",
+  "noLives": "Niente più vite!",
+  "correct": "Giusto: {answer}",
+  "survived": "Ce l'hai fatta! 🎈",
+  "outOfLives": "Tutte le vite sono finite",
+  "result": "{score} parole giuste su {total} · serie migliore: {streak}"
+}

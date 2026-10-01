@@ -1,0 +1,42 @@
+{
+  "name": "Bataille navale",
+  "description": "À deux sur deux appareils : seule une bonne réponse permet de tirer. Idéal pour les tableaux de conjugaison.",
+  "intro": "Un jeu pour deux appareils. Pour tirer sur une case, il faut connaître la bonne réponse – p. ex. bien conjuguer le verbe.",
+  "connected": "Connecté",
+  "connecting": "Connexion en cours …",
+  "oppOffline": "Ton adversaire n'est pas connecté en ce moment. La partie reprend dès son retour.",
+  "yourFleet": "Ta flotte",
+  "oppSea": "Mer de l'adversaire",
+  "oppFleet": "La flotte de l'adversaire :",
+  "fleet": "{n} bateaux ({sizes} cases)",
+  "reshuffle": "Redistribuer",
+  "ready": "Prêt !",
+  "isReady": "✓ Prêt",
+  "oppReady": "Ton adversaire est prêt.",
+  "oppPlacing": "Ton adversaire place encore sa flotte …",
+  "yourTurn": "C'est ton tour – choisis une case !",
+  "oppTurn": "C'est au tour de l'adversaire …",
+  "cell": "Case",
+  "won": "Gagné ! 🏆",
+  "lost": "Perdu – la prochaine fois !",
+  "wonText": "Tu as coulé tous les bateaux.",
+  "lostText": "Ton adversaire a été plus rapide.",
+  "toast": {
+    "wrong": "Dommage, c'est faux – pas de tir",
+    "miss": "Dans l'eau 💦",
+    "hit": "Touché ! 🔥 Tire encore",
+    "sunk": "Coulé ! 💥",
+    "oppWrong": "L'adversaire s'est trompé – à toi",
+    "oppMiss": "L'adversaire tire dans l'eau",
+    "oppHit": "Tu as été touché !",
+    "oppSunk": "L'adversaire a coulé un bateau !"
+  },
+  "cellState": {
+    "blocked": "bloquée",
+    "sunk": "coulé",
+    "hit": "touché",
+    "miss": "dans l'eau",
+    "ship": "ton bateau",
+    "water": "libre"
+  }
+}

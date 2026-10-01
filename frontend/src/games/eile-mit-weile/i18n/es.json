@@ -1,0 +1,42 @@
+{
+  "name": "Parchís",
+  "description": "Tira el dado, traduce la palabra – solo las respuestas correctas llevan tu ficha a la meta.",
+  "settings": {
+    "boardSize": "Tablero",
+    "boardShort": "Corto (32 casillas)",
+    "boardNormal": "Normal (48 casillas)",
+    "boardLong": "Largo (64 casillas)",
+    "pawns": "Fichas por jugador",
+    "sixRollsAgain": "Con un 6 se vuelve a tirar"
+  },
+  "colors": { "red": "Rojo", "blue": "Azul", "green": "Verde", "yellow": "Amarillo" },
+  "boardLabel": "Tablero de parchís",
+  "computer": "Ordenador",
+  "computerName": "El ordenador",
+  "intro": "Tira el dado y traduce la palabra. Tu ficha solo avanza si la respuesta es correcta. ¡Quien llegue primero a la meta gana!",
+  "howMany": "¿Cuántos juegan?",
+  "vsCpu": "Jugar contra el ordenador 🤖",
+  "go": "¡Vamos!",
+  "roll": "Tirar el dado",
+  "cpuKnows": "lo sabe: {expected}",
+  "cpuDoesntKnow": "no lo sabe …",
+  "cpuWins": "¡Gana el ordenador!",
+  "wins": "¡{name} gana! 🎉",
+  "afterRounds": "Tras {n} ronda | Tras {n} rondas",
+  "status": {
+    "moving": "{name} avanza …",
+    "cpuRolls": "El ordenador tira el dado …",
+    "yourTurnRoll": "{name}, te toca – ¡tira el dado!",
+    "cpuThinks": "El ordenador está pensando …",
+    "translate": "Traduce bien y podrás avanzar {n} casilla. | Traduce bien y podrás avanzar {n} casillas.",
+    "choosePawn": "Toca la ficha que debe avanzar."
+  },
+  "room": {
+    "intro": "Parchís para 2–4 jugadores, cada uno en su dispositivo. Solo avanza quien traduce bien.",
+    "youMove": "Estás avanzando …",
+    "yourRoll": "Te toca – ¡tira el dado!",
+    "someoneRolls": "{name} tira el dado …",
+    "someoneTranslates": "{name} traduce una palabra …",
+    "someoneChooses": "{name} elige una ficha …"
+  }
+}

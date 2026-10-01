@@ -1,0 +1,203 @@
+/*
+ * Theme: the only place where colours are defined.
+ *
+ * 1. Palette   – raw colours (--palette-*). Nothing outside this file uses them.
+ * 2. Semantic  – what components use (--surface, --good, --board-track, …), mapped to
+ *                palette colours.
+ *
+ * Another theme only needs to redefine semantic tokens, e.g.
+ *   [data-theme="dark"] { --bg: …; --surface: …; --ink: …; }
+ * src/theme.test.ts fails if colour literals appear anywhere else in the source.
+ */
+
+:root {
+  /* 1. Palette ------------------------------------------------------------ */
+  --palette-white: #ffffff;
+  --palette-black: #000000;
+
+  --palette-sand-50: #fffdf8;
+  --palette-sand-100: #f6f1e7;
+  --palette-sand-150: #fdf8ec;
+  --palette-sand-200: #f1eadb;
+  --palette-sand-300: #e4dccb;
+  --palette-cream-100: #fbf4e4;
+  --palette-cream-300: #e2d4b4;
+  --palette-cream-400: #d8c9a8;
+  --palette-brown-500: #8a6b3d;
+  --palette-brown-900: #3c2d14;
+
+  --palette-ink-900: #2b2a33;
+  --palette-ink-500: #6d6a78;
+  --palette-grey-400: #9a98a4;
+  --palette-shadow: #3c2d14;
+
+  --palette-coral-100: #fde3da;
+  --palette-coral-500: #e8674a;
+  --palette-coral-600: #cf5236;
+  --palette-teal-100: #d8efec;
+  --palette-teal-500: #2f8f83;
+  --palette-teal-600: #26776d;
+  --palette-teal-800: #1d5b53;
+
+  --palette-green-100: #dcf3e4;
+  --palette-green-500: #30a46c;
+  --palette-green-600: #2f9e5b;
+  --palette-green-900: #1e6b3d;
+  --palette-red-100: #fbe1e1;
+  --palette-red-500: #e5484d;
+  --palette-red-550: #d64545;
+  --palette-red-700: #b33a3a;
+  --palette-red-900: #8b1f1f;
+  --palette-red-950: #9b1c1c;
+  --palette-amber-100: #fff4c7;
+  --palette-amber-500: #f0ad00;
+  --palette-amber-600: #c99a00;
+  --palette-amber-900: #8b5a00;
+  --palette-amber-950: #6b5100;
+  --palette-orange-300: #f7b267;
+  --palette-blue-500: #3e7bfa;
+  --palette-purple-500: #a855f7;
+  --palette-pink-500: #ec4899;
+  --palette-violet-500: #6c5ce7;
+  --palette-violet-600: #5a4bd1;
+  --palette-wood-400: #d9a066;
+  --palette-wood-100: #fff8ea;
+  --palette-wood-150: #fdf1da;
+
+  --palette-sea-50: #e3f3ff;
+  --palette-sea-100: #dcecf7;
+  --palette-sea-150: #cfe3f3;
+  --palette-sea-200: #c3dbeb;
+  --palette-sea-250: #bfe3ff;
+  --palette-sea-300: #a7d4f2;
+  --palette-sea-350: #a9cfe9;
+  --palette-sea-400: #8cc4ea;
+  --palette-sea-450: #7fb8e0;
+  --palette-sea-500: #6aa9d8;
+  --palette-sea-700: #1f7ab8;
+  --palette-sea-900: #3a5a78;
+  --palette-steel-200: #c9d7e2;
+  --palette-steel-250: #b8c9d6;
+  --palette-steel-500: #6b7a8f;
+  --palette-steel-700: #4f5d70;
+  --palette-sunrise-50: #fff6e3;
+
+  /* 2. Semantic tokens ------------------------------------------------------ */
+  /* Surfaces and text */
+  --bg: var(--palette-sand-100);
+  --surface: var(--palette-sand-50);
+  --surface-2: var(--palette-sand-200);
+  --surface-bright: var(--palette-white); /* inputs, cards on coloured backgrounds */
+  --ink: var(--palette-ink-900);
+  --muted: var(--palette-ink-500);
+  --line: var(--palette-sand-300);
+  --on-color: var(--palette-white); /* text/icons on coloured fills */
+  --overlay: color-mix(in srgb, var(--palette-ink-900) 70%, transparent);
+
+  /* Brand */
+  --primary: var(--palette-coral-500);
+  --primary-strong: var(--palette-coral-600);
+  --primary-soft: var(--palette-coral-100);
+  --accent: var(--palette-teal-500);
+  --accent-soft: var(--palette-teal-100);
+  --accent-strong: var(--palette-teal-600);
+  --accent-ink: var(--palette-teal-800);
+
+  /* Feedback */
+  --good: var(--palette-green-600);
+  --good-soft: var(--palette-green-100);
+  --good-ink: var(--palette-green-900);
+  --bad: var(--palette-red-550);
+  --bad-soft: var(--palette-red-100);
+  --bad-ink: var(--palette-red-900);
+  --warn-ink: var(--palette-amber-900);
+
+  /* Players / teams / seats (in seat order) */
+  --player-red: var(--palette-red-500);
+  --player-blue: var(--palette-blue-500);
+  --player-green: var(--palette-green-500);
+  --player-yellow: var(--palette-amber-500);
+  --player-purple: var(--palette-purple-500);
+  --player-pink: var(--palette-pink-500);
+
+  /* Game tiles */
+  --game-eile: var(--palette-coral-500);
+  --game-balloon: var(--palette-blue-500);
+  --game-kaboom: var(--palette-violet-500);
+  --game-battleship: var(--palette-sea-700);
+  --game-memory: var(--palette-amber-500);
+  --game-choice: var(--palette-green-500);
+  --game-typing: var(--palette-purple-500);
+
+  /* Decorative sets (confetti, balloons, sticks) */
+  --deco-1: var(--palette-coral-500);
+  --deco-2: var(--palette-blue-500);
+  --deco-3: var(--palette-amber-500);
+  --deco-4: var(--palette-green-500);
+  --deco-5: var(--palette-purple-500);
+  --deco-6: var(--palette-pink-500);
+  --deco-7: var(--palette-teal-500);
+  --deco-8: var(--palette-wood-400);
+
+  /* Shadows */
+  --shadow-color: var(--palette-shadow);
+  --shadow-sm: 0 1px 2px color-mix(in srgb, var(--shadow-color) 8%, transparent);
+  --shadow:
+    0 2px 4px color-mix(in srgb, var(--shadow-color) 6%, transparent),
+    0 8px 24px color-mix(in srgb, var(--shadow-color) 8%, transparent);
+  --shadow-lg: 0 12px 40px color-mix(in srgb, var(--shadow-color) 16%, transparent);
+  --drop-shadow: color-mix(in srgb, var(--shadow-color) 18%, transparent);
+  --text-shadow: color-mix(in srgb, var(--palette-black) 30%, transparent);
+  --shade: var(--palette-black); /* mixed into colours to darken them */
+
+  /* Eile mit Weile board */
+  --board-bg: var(--palette-cream-100);
+  --board-edge: var(--palette-cream-300);
+  --board-field: var(--palette-white);
+  --board-field-edge: var(--palette-cream-400);
+  --board-bench: var(--palette-brown-500);
+  --board-shadow: var(--palette-brown-900);
+  --die-face: var(--palette-white);
+
+  /* Schiffe versenken */
+  --sea: var(--palette-sea-100);
+  --sea-edge: var(--palette-sea-200);
+  --sea-label: var(--palette-sea-900);
+  --sea-hover: var(--palette-sea-450);
+  --sea-target-from: var(--palette-sea-400);
+  --sea-target-to: var(--palette-sea-500);
+  --ship-from: var(--palette-steel-500);
+  --ship-to: var(--palette-steel-700);
+  --ship-miss-a: var(--palette-steel-200);
+  --ship-miss-b: var(--palette-steel-250);
+  --sea-miss: var(--palette-sea-350);
+  --ship-hit: var(--palette-orange-300);
+  --ship-sunk: var(--palette-red-700);
+  --sea-selected: var(--palette-sea-300);
+
+  /* Ballon-Platzen */
+  --sky-top: var(--palette-sea-250);
+  --sky-mid: var(--palette-sea-50);
+  --sky-bottom: var(--palette-sunrise-50);
+  --sky-edge: var(--palette-sea-150);
+  --balloon-string: color-mix(in srgb, var(--palette-ink-900) 45%, transparent);
+  --balloon-popped: var(--palette-grey-400);
+
+  /* Kaboom */
+  --cup: var(--palette-violet-500);
+  --cup-rim: var(--palette-violet-600);
+  --blast-outer: var(--palette-amber-500);
+  --blast-inner: var(--palette-red-500);
+  --blast-text-shadow: var(--palette-red-950);
+  --table-edge: var(--palette-wood-400);
+  --table-a: var(--palette-wood-100);
+  --table-b: var(--palette-wood-150);
+
+  /* Memory */
+  --card-front: var(--palette-sand-150);
+
+  /* Test-mode badge */
+  --testmode-bg: var(--palette-amber-100);
+  --testmode-edge: var(--palette-amber-600);
+  --testmode-ink: var(--palette-amber-950);
+}

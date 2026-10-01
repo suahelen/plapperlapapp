@@ -1,0 +1,42 @@
+{
+  "name": "Ludo",
+  "description": "Roll the die, translate the word – only correct answers bring your pawn home.",
+  "settings": {
+    "boardSize": "Board",
+    "boardShort": "Short (32 fields)",
+    "boardNormal": "Normal (48 fields)",
+    "boardLong": "Long (64 fields)",
+    "pawns": "Pawns per player",
+    "sixRollsAgain": "Roll again on a 6"
+  },
+  "colors": { "red": "Red", "blue": "Blue", "green": "Green", "yellow": "Yellow" },
+  "boardLabel": "Ludo board",
+  "computer": "Computer",
+  "computerName": "The computer",
+  "intro": "Roll the die and translate the word. Your pawn may only move if the answer is right. Whoever gets home first wins!",
+  "howMany": "How many are playing?",
+  "vsCpu": "Play against the computer 🤖",
+  "go": "Let's go!",
+  "roll": "Roll",
+  "cpuKnows": "knows it: {expected}",
+  "cpuDoesntKnow": "doesn't know …",
+  "cpuWins": "The computer wins!",
+  "wins": "{name} wins! 🎉",
+  "afterRounds": "After {n} round | After {n} rounds",
+  "status": {
+    "moving": "{name} is moving …",
+    "cpuRolls": "The computer is rolling …",
+    "yourTurnRoll": "{name}, it's your turn – roll!",
+    "cpuThinks": "The computer is thinking …",
+    "translate": "Translate correctly and you may move {n} field. | Translate correctly and you may move {n} fields.",
+    "choosePawn": "Tap the pawn that should move."
+  },
+  "room": {
+    "intro": "Ludo for 2–4 players, each on their own device. Only those who translate correctly may move.",
+    "youMove": "You're moving …",
+    "yourRoll": "It's your turn – roll!",
+    "someoneRolls": "{name} is rolling …",
+    "someoneTranslates": "{name} is translating a word …",
+    "someoneChooses": "{name} is choosing a pawn …"
+  }
+}

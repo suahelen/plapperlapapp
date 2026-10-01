@@ -1,0 +1,42 @@
+{
+  "name": "Battaglia navale",
+  "description": "In due su due dispositivi: si spara solo con la risposta giusta. Ideale per le tabelle di coniugazione.",
+  "intro": "Un gioco per due dispositivi. Per sparare su una casella devi conoscere la risposta giusta – p. es. coniugare bene il verbo.",
+  "connected": "Connesso",
+  "connecting": "Connessione in corso …",
+  "oppOffline": "Il tuo avversario non è connesso in questo momento. Il gioco continua appena torna.",
+  "yourFleet": "La tua flotta",
+  "oppSea": "Mare dell'avversario",
+  "oppFleet": "La flotta dell'avversario:",
+  "fleet": "{n} navi ({sizes} caselle)",
+  "reshuffle": "Ridistribuisci",
+  "ready": "Pronto!",
+  "isReady": "✓ Pronto",
+  "oppReady": "Il tuo avversario è pronto.",
+  "oppPlacing": "Il tuo avversario sta ancora posizionando la flotta …",
+  "yourTurn": "Tocca a te – scegli una casella!",
+  "oppTurn": "Tocca all'avversario …",
+  "cell": "Casella",
+  "won": "Hai vinto! 🏆",
+  "lost": "Hai perso – la prossima volta!",
+  "wonText": "Hai affondato tutte le navi.",
+  "lostText": "Il tuo avversario è stato più veloce.",
+  "toast": {
+    "wrong": "Peccato, sbagliato – niente colpo",
+    "miss": "Acqua 💦",
+    "hit": "Colpito! 🔥 Spara ancora",
+    "sunk": "Affondata! 💥",
+    "oppWrong": "L'avversario ha sbagliato – tocca a te",
+    "oppMiss": "L'avversario colpisce solo acqua",
+    "oppHit": "Sei stato colpito!",
+    "oppSunk": "L'avversario ha affondato una nave!"
+  },
+  "cellState": {
+    "blocked": "bloccata",
+    "sunk": "affondata",
+    "hit": "colpita",
+    "miss": "acqua",
+    "ship": "tua nave",
+    "water": "libera"
+  }
+}

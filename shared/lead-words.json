@@ -1,0 +1,18 @@
+{
+  "_comment": "Leading words a student may add in front of an answer (\"vous allez\" for \"allez\", \"the dog\" for \"dog\"). They are only dropped from the given answer when that makes it match, never required: if the expected answer contains the article, it must be said. Used by frontend/src/games/shared/answer/check.ts directly; backend/internal/answer/leadwords.go must hold the same list (checked by its tests). Entries ending in an apostrophe are elided forms, stripped from the start of a word (j'aime → aime).",
+  "words": [
+    "der", "die", "das", "den", "dem", "des", "ein", "eine", "einen", "einem", "einer", "eines",
+    "ich", "du", "er", "sie", "es", "wir", "ihr", "man",
+
+    "le", "la", "les", "un", "une", "de",
+    "je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles",
+
+    "the", "a", "an", "to", "i", "you", "he", "she", "it", "we", "they",
+
+    "lo", "gli", "uno", "una", "io", "lui", "lei", "noi", "voi", "loro",
+
+    "el", "los", "las", "unos", "unas", "yo", "tú", "él", "ella", "nosotros", "nosotras",
+    "vosotros", "vosotras", "ellos", "ellas", "usted", "ustedes"
+  ],
+  "elided": ["j'", "l'", "d'", "m'", "t'", "s'", "n'", "qu'", "un'", "c'"]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Ballon-Platzen",
+  "description": "Tippe auf den Ballon mit der richtigen Übersetzung, bevor er davonfliegt.",
+  "settings": {
+    "balloons": "Ballone pro Runde",
+    "speed": "Tempo",
+    "slow": "Gemütlich",
+    "normal": "Normal",
+    "fast": "Schnell",
+    "lives": "Leben",
+    "rounds": "Runden"
+  },
+  "intro": "Oben steht ein Wort. Tippe auf den Ballon mit der richtigen Übersetzung, bevor er davonfliegt! Falsche Ballone kosten ein Leben.",
+  "roundsLives": "{rounds} Runden · {lives} Leben",
+  "livesLabel": "{n} Leben | {n} Leben",
+  "start": "Start",
+  "escaped": "Davongeflogen!",
+  "noLives": "Keine Leben mehr!",
+  "correct": "Richtig: {answer}",
+  "survived": "Geschafft! 🎈",
+  "outOfLives": "Alle Leben verbraucht",
+  "result": "{score} von {total} Wörtern richtig · beste Serie: {streak}"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Scelta multipla",
+  "description": "Scegli la traduzione giusta tra più possibilità.",
+  "settings": { "answerCount": "Risposte possibili", "questionCount": "Numero di domande" }
+}

@@ -1,0 +1,54 @@
+# --- Secrets / local configuration ------------------------------------------
+# Real environment files never go into git. The templates below are safe and tracked.
+.env
+.env.*
+!.env.example
+!frontend/.env.mock
+
+# --- Frontend (Node / Vite) ---------------------------------------------------
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+.vite/
+.eslintcache
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Backend (Go) -------------------------------------------------------------
+backend/server
+backend/server.exe
+*.test
+*.out
+*.prof
+
+# --- Speech sidecar (Python) ------------------------------------------------
+asr/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Downloaded models (Hugging Face cache, if pointed into the repo)
+asr/models/
+asr/.cache/
+
+# --- Local databases / tooling ------------------------------------------------
+pgdata/
+*.sqlite
+.pixi/
+
+# --- Editors / OS -------------------------------------------------------------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs ---------------------------------------------------------------------
+*.log

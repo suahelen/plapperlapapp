@@ -1,0 +1,22 @@
+{
+  "name": "Memory",
+  "description": "Trouve les paires : un mot et sa traduction vont ensemble.",
+  "settings": { "pairs": "Nombre de paires" },
+  "progress": "{found} / {total} paires · {attempts} essais",
+  "allFound": "Toutes les paires sont trouvées !",
+  "attempts": "{attempts} essais pour {pairs} paires",
+  "card": "Carte {n}",
+  "room": {
+    "intro": "Memory pour 2 à 4 joueurs, chacun sur son appareil. Qui trouve une paire rejoue.",
+    "youFound": "Tu as trouvé une paire !",
+    "someoneFound": "{name} a trouvé une paire !",
+    "noPair": "Pas de paire – au suivant",
+    "skipped": "{name} a passé son tour",
+    "tie": "Égalité : {names}",
+    "youWin": "Tu as gagné ! 🏆",
+    "someoneWins": "{name} gagne !",
+    "pairs": "Paires",
+    "allFound": "Toutes les paires sont trouvées.",
+    "yourTurn": "C'est ton tour – retourne deux cartes !"
+  }
+}

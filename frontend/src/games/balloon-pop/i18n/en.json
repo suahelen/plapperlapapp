@@ -1,0 +1,23 @@
+{
+  "name": "Balloon Pop",
+  "description": "Tap the balloon with the right translation before it floats away.",
+  "settings": {
+    "balloons": "Balloons per round",
+    "speed": "Speed",
+    "slow": "Relaxed",
+    "normal": "Normal",
+    "fast": "Fast",
+    "lives": "Lives",
+    "rounds": "Rounds"
+  },
+  "intro": "A word appears at the top. Tap the balloon with the right translation before it floats away! Wrong balloons cost a life.",
+  "roundsLives": "{rounds} rounds · {lives} lives",
+  "livesLabel": "{n} life | {n} lives",
+  "start": "Start",
+  "escaped": "It floated away!",
+  "noLives": "No lives left!",
+  "correct": "Correct: {answer}",
+  "survived": "You did it! 🎈",
+  "outOfLives": "All lives used up",
+  "result": "{score} of {total} words correct · best streak: {streak}"
+}

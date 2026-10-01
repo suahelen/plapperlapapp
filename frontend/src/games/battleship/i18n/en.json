@@ -1,0 +1,42 @@
+{
+  "name": "Battleship",
+  "description": "Two players on two devices: only a correct answer lets you fire. Great for conjugation tables.",
+  "intro": "A game for two devices. To fire at a cell you need to know the right answer – e.g. conjugate the verb correctly.",
+  "connected": "Connected",
+  "connecting": "Connecting …",
+  "oppOffline": "Your opponent isn't connected right now. The game continues as soon as they're back.",
+  "yourFleet": "Your fleet",
+  "oppSea": "Opponent's sea",
+  "oppFleet": "The opponent's fleet:",
+  "fleet": "{n} ships ({sizes} cells)",
+  "reshuffle": "Shuffle again",
+  "ready": "Ready!",
+  "isReady": "✓ Ready",
+  "oppReady": "Your opponent is ready.",
+  "oppPlacing": "Your opponent is still placing their fleet …",
+  "yourTurn": "It's your turn – pick a cell!",
+  "oppTurn": "It's your opponent's turn …",
+  "cell": "Cell",
+  "won": "You won! 🏆",
+  "lost": "You lost – next time!",
+  "wonText": "You sank all the ships.",
+  "lostText": "Your opponent was faster.",
+  "toast": {
+    "wrong": "Sorry, wrong – no shot",
+    "miss": "Water 💦",
+    "hit": "Hit! 🔥 Fire again",
+    "sunk": "Sunk! 💥",
+    "oppWrong": "Your opponent was wrong – your turn",
+    "oppMiss": "Your opponent only hit water",
+    "oppHit": "You were hit!",
+    "oppSunk": "Your opponent sank a ship!"
+  },
+  "cellState": {
+    "blocked": "blocked",
+    "sunk": "sunk",
+    "hit": "hit",
+    "miss": "water",
+    "ship": "your ship",
+    "water": "free"
+  }
+}

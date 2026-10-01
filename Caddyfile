@@ -1,0 +1,24 @@
+{$SITE_ADDRESS::80} {
+	handle /api/* {
+		# No response compression here: it could buffer Server-Sent Events
+		# (live multiplayer updates under /api/rooms/*/events).
+		reverse_proxy api:8080
+	}
+
+	handle {
+		encode zstd gzip
+		root * /srv
+		# Hashed build assets can be cached forever; index.html must not be.
+		@assets path /assets/*
+		header @assets Cache-Control "public, max-age=31536000, immutable"
+		try_files {path} /index.html
+		file_server
+	}
+
+	header {
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		X-Frame-Options DENY
+		-Server
+	}
+}

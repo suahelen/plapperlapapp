@@ -1,0 +1,23 @@
+{
+  "name": "Éclate-ballons",
+  "description": "Touche le ballon avec la bonne traduction avant qu'il ne s'envole.",
+  "settings": {
+    "balloons": "Ballons par manche",
+    "speed": "Vitesse",
+    "slow": "Tranquille",
+    "normal": "Normale",
+    "fast": "Rapide",
+    "lives": "Vies",
+    "rounds": "Manches"
+  },
+  "intro": "Un mot apparaît en haut. Touche le ballon avec la bonne traduction avant qu'il ne s'envole ! Les mauvais ballons coûtent une vie.",
+  "roundsLives": "{rounds} manches · {lives} vies",
+  "livesLabel": "{n} vie | {n} vies",
+  "start": "C'est parti",
+  "escaped": "Envolé !",
+  "noLives": "Plus de vies !",
+  "correct": "Bonne réponse : {answer}",
+  "survived": "Réussi ! 🎈",
+  "outOfLives": "Toutes les vies sont perdues",
+  "result": "{score} mots justes sur {total} · meilleure série : {streak}"
+}

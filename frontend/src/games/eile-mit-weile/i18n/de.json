@@ -1,0 +1,42 @@
+{
+  "name": "Eile mit Weile",
+  "description": "Würfeln, Wort übersetzen – nur richtige Antworten bringen die Figur ins Ziel.",
+  "settings": {
+    "boardSize": "Spielbrett",
+    "boardShort": "Kurz (32 Felder)",
+    "boardNormal": "Normal (48 Felder)",
+    "boardLong": "Lang (64 Felder)",
+    "pawns": "Figuren pro Spieler",
+    "sixRollsAgain": "Bei einer 6 nochmals würfeln"
+  },
+  "colors": { "red": "Rot", "blue": "Blau", "green": "Grün", "yellow": "Gelb" },
+  "boardLabel": "Spielbrett Eile mit Weile",
+  "computer": "Computer",
+  "computerName": "Der Computer",
+  "intro": "Würfle und übersetze das Wort. Nur wenn die Antwort stimmt, darf deine Figur ziehen. Wer zuerst im Ziel ist, gewinnt!",
+  "howMany": "Wie viele spielen mit?",
+  "vsCpu": "Gegen den Computer spielen 🤖",
+  "go": "Los geht's!",
+  "roll": "Würfeln",
+  "cpuKnows": "weiss es: {expected}",
+  "cpuDoesntKnow": "weiss es nicht …",
+  "cpuWins": "Der Computer gewinnt!",
+  "wins": "{name} gewinnt! 🎉",
+  "afterRounds": "Nach {n} Runde | Nach {n} Runden",
+  "status": {
+    "moving": "{name} zieht …",
+    "cpuRolls": "Der Computer würfelt …",
+    "yourTurnRoll": "{name}, du bist dran – würfle!",
+    "cpuThinks": "Der Computer überlegt …",
+    "translate": "Übersetze richtig, dann darfst du {n} Feld ziehen. | Übersetze richtig, dann darfst du {n} Felder ziehen.",
+    "choosePawn": "Tippe auf die Figur, die ziehen soll."
+  },
+  "room": {
+    "intro": "Eile mit Weile für 2–4 Spieler:innen, jede:r am eigenen Gerät. Nur wer richtig übersetzt, darf ziehen.",
+    "youMove": "Du ziehst …",
+    "yourRoll": "Du bist dran – würfle!",
+    "someoneRolls": "{name} würfelt …",
+    "someoneTranslates": "{name} übersetzt ein Wort …",
+    "someoneChooses": "{name} wählt eine Figur …"
+  }
+}

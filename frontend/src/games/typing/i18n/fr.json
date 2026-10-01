@@ -1,0 +1,5 @@
+{
+  "name": "Écrire",
+  "description": "Écris la traduction – majuscules et minuscules ne comptent pas.",
+  "settings": { "questionCount": "Nombre de questions" }
+}

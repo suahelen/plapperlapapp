@@ -1,0 +1,23 @@
+{
+  "name": "Revienta globos",
+  "description": "Toca el globo con la traducción correcta antes de que se vaya volando.",
+  "settings": {
+    "balloons": "Globos por ronda",
+    "speed": "Velocidad",
+    "slow": "Tranquila",
+    "normal": "Normal",
+    "fast": "Rápida",
+    "lives": "Vidas",
+    "rounds": "Rondas"
+  },
+  "intro": "Arriba aparece una palabra. ¡Toca el globo con la traducción correcta antes de que se vaya volando! Los globos equivocados cuestan una vida.",
+  "roundsLives": "{rounds} rondas · {lives} vidas",
+  "livesLabel": "{n} vida | {n} vidas",
+  "start": "Empezar",
+  "escaped": "¡Se ha ido volando!",
+  "noLives": "¡No quedan vidas!",
+  "correct": "Correcto: {answer}",
+  "survived": "¡Lo has conseguido! 🎈",
+  "outOfLives": "Se han acabado las vidas",
+  "result": "{score} de {total} palabras correctas · mejor racha: {streak}"
+}

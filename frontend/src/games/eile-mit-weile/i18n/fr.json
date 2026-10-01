@@ -1,0 +1,42 @@
+{
+  "name": "Petits chevaux",
+  "description": "Lance le dé, traduis le mot – seules les bonnes réponses mènent ton pion au but.",
+  "settings": {
+    "boardSize": "Plateau",
+    "boardShort": "Court (32 cases)",
+    "boardNormal": "Normal (48 cases)",
+    "boardLong": "Long (64 cases)",
+    "pawns": "Pions par joueur",
+    "sixRollsAgain": "Rejouer sur un 6"
+  },
+  "colors": { "red": "Rouge", "blue": "Bleu", "green": "Vert", "yellow": "Jaune" },
+  "boardLabel": "Plateau des petits chevaux",
+  "computer": "Ordinateur",
+  "computerName": "L'ordinateur",
+  "intro": "Lance le dé et traduis le mot. Ton pion n'avance que si la réponse est juste. Le premier arrivé au but gagne !",
+  "howMany": "Combien de joueurs ?",
+  "vsCpu": "Jouer contre l'ordinateur 🤖",
+  "go": "C'est parti !",
+  "roll": "Lancer le dé",
+  "cpuKnows": "sait : {expected}",
+  "cpuDoesntKnow": "ne sait pas …",
+  "cpuWins": "L'ordinateur gagne !",
+  "wins": "{name} gagne ! 🎉",
+  "afterRounds": "Après {n} tour | Après {n} tours",
+  "status": {
+    "moving": "{name} avance …",
+    "cpuRolls": "L'ordinateur lance le dé …",
+    "yourTurnRoll": "{name}, c'est ton tour – lance le dé !",
+    "cpuThinks": "L'ordinateur réfléchit …",
+    "translate": "Traduis correctement et tu avances de {n} case. | Traduis correctement et tu avances de {n} cases.",
+    "choosePawn": "Touche le pion qui doit avancer."
+  },
+  "room": {
+    "intro": "Petits chevaux pour 2 à 4 joueurs, chacun sur son appareil. Seuls ceux qui traduisent juste avancent.",
+    "youMove": "Tu avances …",
+    "yourRoll": "C'est ton tour – lance le dé !",
+    "someoneRolls": "{name} lance le dé …",
+    "someoneTranslates": "{name} traduit un mot …",
+    "someoneChooses": "{name} choisit un pion …"
+  }
+}

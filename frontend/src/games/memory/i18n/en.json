@@ -1,0 +1,22 @@
+{
+  "name": "Memory",
+  "description": "Find the pairs: a word and its translation belong together.",
+  "settings": { "pairs": "Number of pairs" },
+  "progress": "{found} / {total} pairs · {attempts} tries",
+  "allFound": "All pairs found!",
+  "attempts": "{attempts} tries for {pairs} pairs",
+  "card": "Card {n}",
+  "room": {
+    "intro": "Memory for 2–4 players, each on their own device. Whoever finds a pair goes again.",
+    "youFound": "You found a pair!",
+    "someoneFound": "{name} found a pair!",
+    "noPair": "No pair – next turn",
+    "skipped": "{name} was skipped",
+    "tie": "It's a tie: {names}",
+    "youWin": "You win! 🏆",
+    "someoneWins": "{name} wins!",
+    "pairs": "Pairs",
+    "allFound": "All pairs have been found.",
+    "yourTurn": "It's your turn – turn over two cards!"
+  }
+}

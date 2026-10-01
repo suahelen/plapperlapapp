@@ -1,0 +1,5 @@
+{
+  "name": "Typing",
+  "description": "Write the translation – upper and lower case don't matter.",
+  "settings": { "questionCount": "Number of questions" }
+}

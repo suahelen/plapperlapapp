@@ -1,0 +1,42 @@
+{
+  "name": "Non t'arrabbiare",
+  "description": "Tira il dado, traduci la parola – solo le risposte giuste portano la pedina al traguardo.",
+  "settings": {
+    "boardSize": "Tabellone",
+    "boardShort": "Corto (32 caselle)",
+    "boardNormal": "Normale (48 caselle)",
+    "boardLong": "Lungo (64 caselle)",
+    "pawns": "Pedine per giocatore",
+    "sixRollsAgain": "Con un 6 si tira di nuovo"
+  },
+  "colors": { "red": "Rosso", "blue": "Blu", "green": "Verde", "yellow": "Giallo" },
+  "boardLabel": "Tabellone di Non t'arrabbiare",
+  "computer": "Computer",
+  "computerName": "Il computer",
+  "intro": "Tira il dado e traduci la parola. La tua pedina avanza solo se la risposta è giusta. Chi arriva prima al traguardo vince!",
+  "howMany": "Quanti giocano?",
+  "vsCpu": "Gioca contro il computer 🤖",
+  "go": "Via!",
+  "roll": "Tira il dado",
+  "cpuKnows": "lo sa: {expected}",
+  "cpuDoesntKnow": "non lo sa …",
+  "cpuWins": "Vince il computer!",
+  "wins": "{name} vince! 🎉",
+  "afterRounds": "Dopo {n} turno | Dopo {n} turni",
+  "status": {
+    "moving": "{name} avanza …",
+    "cpuRolls": "Il computer tira il dado …",
+    "yourTurnRoll": "{name}, tocca a te – tira il dado!",
+    "cpuThinks": "Il computer ci pensa …",
+    "translate": "Traduci giusto e puoi avanzare di {n} casella. | Traduci giusto e puoi avanzare di {n} caselle.",
+    "choosePawn": "Tocca la pedina che deve avanzare."
+  },
+  "room": {
+    "intro": "Non t'arrabbiare per 2–4 giocatori, ognuno sul proprio dispositivo. Avanza solo chi traduce giusto.",
+    "youMove": "Stai avanzando …",
+    "yourRoll": "Tocca a te – tira il dado!",
+    "someoneRolls": "{name} tira il dado …",
+    "someoneTranslates": "{name} traduce una parola …",
+    "someoneChooses": "{name} sceglie una pedina …"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Schiffe versenken",
+  "description": "Zu zweit auf zwei Geräten: nur wer richtig antwortet, darf schiessen. Ideal für Konjugationstabellen.",
+  "intro": "Ein Spiel für zwei Geräte. Um ein Feld zu beschiessen, musst du die richtige Antwort wissen – z.B. das Verb richtig konjugieren.",
+  "connected": "Verbunden",
+  "connecting": "Verbindung wird hergestellt …",
+  "oppOffline": "Dein Gegner ist gerade nicht verbunden. Das Spiel geht weiter, sobald er zurück ist.",
+  "yourFleet": "Deine Flotte",
+  "oppSea": "Gegnerisches Meer",
+  "oppFleet": "Die gegnerische Flotte:",
+  "fleet": "{n} Schiffe ({sizes} Felder)",
+  "reshuffle": "Neu verteilen",
+  "ready": "Bereit!",
+  "isReady": "✓ Bereit",
+  "oppReady": "Dein Gegner ist bereit.",
+  "oppPlacing": "Dein Gegner stellt seine Flotte noch auf …",
+  "yourTurn": "Du bist dran – wähle ein Feld!",
+  "oppTurn": "Der Gegner ist dran …",
+  "cell": "Feld",
+  "won": "Gewonnen! 🏆",
+  "lost": "Verloren – nächstes Mal!",
+  "wonText": "Du hast alle Schiffe versenkt.",
+  "lostText": "Dein Gegner war schneller.",
+  "toast": {
+    "wrong": "Leider falsch – kein Schuss",
+    "miss": "Wasser 💦",
+    "hit": "Treffer! 🔥 Nochmals schiessen",
+    "sunk": "Versenkt! 💥",
+    "oppWrong": "Gegner lag falsch – du bist dran",
+    "oppMiss": "Gegner trifft nur Wasser",
+    "oppHit": "Du wurdest getroffen!",
+    "oppSunk": "Der Gegner hat ein Schiff versenkt!"
+  },
+  "cellState": {
+    "blocked": "gesperrt",
+    "sunk": "versenkt",
+    "hit": "Treffer",
+    "miss": "Wasser",
+    "ship": "eigenes Schiff",
+    "water": "frei"
+  }
+}

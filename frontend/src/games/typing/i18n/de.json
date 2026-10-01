@@ -1,0 +1,5 @@
+{
+  "name": "Tippen",
+  "description": "Schreibe die Übersetzung – Gross-/Kleinschreibung zählt nicht.",
+  "settings": { "questionCount": "Anzahl Fragen" }
+}
