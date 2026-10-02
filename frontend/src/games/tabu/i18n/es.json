@@ -1,0 +1,26 @@
+{
+  "name": "Tabú",
+  "description": "Describe la palabra sin decirla ni decir su traducción – los demás adivinan en voz alta.",
+  "settings": { "roundSeconds": "Duración del turno (segundos)" },
+  "setup": {
+    "intro": "Escribe el nombre de cada jugador/a. Por turnos, una persona describe palabras mientras los demás gritan sus respuestas.",
+    "namePlaceholder": "Escribe un nombre",
+    "add": "Añadir",
+    "remove": "Quitar a {name}",
+    "needTwoPlayers": "Se necesitan al menos 2 jugadores.",
+    "start": "Empezar"
+  },
+  "ready": { "passTo": "Pasa el dispositivo a", "ready": "Listo" },
+  "describing": {
+    "taboo": "No digas:",
+    "skip": "Pasar",
+    "correct": "Correcto",
+    "tally": "{correct} correctas · {skipped} pasadas"
+  },
+  "turnOver": {
+    "title": "El turno de {name} ha terminado",
+    "summary": "{correct} adivinadas, {skipped} pasadas",
+    "next": "Siguiente"
+  },
+  "finished": { "winner": "¡{name} gana!", "words": "{n} palabra | {n} palabras" }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Tabu",
+  "description": "Beschreibe das Wort, ohne es oder seine Übersetzung zu sagen – die anderen raten mit.",
+  "settings": { "roundSeconds": "Rundenzeit (Sekunden)" },
+  "setup": {
+    "intro": "Gib die Namen aller Mitspieler:innen ein. Reihum beschreibt eine Person Wörter, die anderen raten laut mit.",
+    "namePlaceholder": "Name eingeben",
+    "add": "Hinzufügen",
+    "remove": "{name} entfernen",
+    "needTwoPlayers": "Mindestens 2 Spieler:innen nötig.",
+    "start": "Los geht's"
+  },
+  "ready": { "passTo": "Gib das Gerät weiter an", "ready": "Bereit" },
+  "describing": {
+    "taboo": "Nicht sagen:",
+    "skip": "Passen",
+    "correct": "Richtig",
+    "tally": "{correct} richtig · {skipped} übersprungen"
+  },
+  "turnOver": {
+    "title": "{name}s Runde ist vorbei",
+    "summary": "{correct} richtig erraten, {skipped} übersprungen",
+    "next": "Weiter"
+  },
+  "finished": { "winner": "{name} gewinnt!", "words": "{n} Wort | {n} Wörter" }
+}

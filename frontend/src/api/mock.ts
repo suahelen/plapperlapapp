@@ -658,6 +658,19 @@ const routes: [string, RegExp, Handler][] = [
   }],
 
   ['GET', /^\/public\/activities\/([^/]+)$/, (db, [id]) => publicActivity(db, decodeURIComponent(id))],
+
+  // Lightweight, anonymous usage stats: no-op in test mode, just a plausible read-out.
+  ['POST', /^\/stats\/play$/, () => undefined],
+  [
+    'GET',
+    /^\/stats$/,
+    (db) => ({
+      users: db.users.length,
+      words: db.sets.reduce((sum, s) => sum + s.items.length, 0),
+      totalPlays: 0,
+      byGame: {},
+    }),
+  ],
 ]
 
 export async function mockRequest<T>(method: string, path: string, body?: unknown): Promise<T> {

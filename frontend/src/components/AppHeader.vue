@@ -4,6 +4,7 @@ import { useI18n } from 'vue-i18n'
 import { currentUser, logout } from '@/stores/session'
 import { setTeacherLocale, teacherLocale } from '@/stores/locale'
 import { LOCALE_NAMES, SUPPORTED, isLocale } from '@/i18n'
+import GithubLink from './GithubLink.vue'
 
 const router = useRouter()
 const { t } = useI18n()
@@ -33,6 +34,7 @@ function onLanguage(e: Event) {
         <RouterLink to="/vocabulary">{{ t('nav.vocabulary') }}</RouterLink>
       </nav>
       <div class="spacer" />
+      <GithubLink />
       <label class="lang">
         <span aria-hidden="true">🌐</span>
         <span class="sr-only">{{ t('nav.language') }}</span>

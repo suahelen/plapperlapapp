@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { gameName } from '@/games/i18n'
 import { useI18n } from 'vue-i18n'
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { loadPublicActivity } from '@/stores/publicActivity'
 import { ApiError, errorMessage } from '@/api/client'
+import { recordPlay } from '@/api/stats'
 import type { PublicActivity } from '@/models'
 import { getGame } from '@/games/registry'
 import { resolveSettings } from '@/games/settings'
@@ -55,6 +56,20 @@ const mode = computed<'single' | 'multi' | null>(() => {
 
 const component = computed(() =>
   mode.value === 'multi' ? game.value?.def.multiplayer?.component : game.value?.def.component,
+)
+
+// Lightweight, anonymous usage counter: fires once when a student actually starts
+// playing (not when just browsing the game picker).
+let recordedPlay = false
+watch(
+  component,
+  (c) => {
+    if (c && !recordedPlay && game.value) {
+      recordedPlay = true
+      recordPlay(game.value.def.id)
+    }
+  },
+  { immediate: true },
 )
 
 function choose(m: 'single' | 'multi') {

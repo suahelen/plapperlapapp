@@ -54,10 +54,15 @@ func (l *Limiter) Allow(key string) bool {
 	return true
 }
 
-// ClientIP returns the request's client IP. When trustProxy is set, the rightmost
-// X-Forwarded-For entry (the one added by our own reverse proxy) is used.
+// ClientIP returns the request's client IP. When trustProxy is set, CF-Connecting-IP
+// (set by Cloudflare at its edge, unaffected by any proxy hops behind it such as
+// cloudflared or Caddy) is preferred; otherwise the rightmost X-Forwarded-For entry
+// (the one added by our own reverse proxy) is used.
 func ClientIP(r *http.Request, trustProxy bool) string {
 	if trustProxy {
+		if cf := strings.TrimSpace(r.Header.Get("CF-Connecting-IP")); cf != "" {
+			return cf
+		}
 		if xff := r.Header.Get("X-Forwarded-For"); xff != "" {
 			parts := strings.Split(xff, ",")
 			return strings.TrimSpace(parts[len(parts)-1])

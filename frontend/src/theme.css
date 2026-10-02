@@ -128,6 +128,7 @@
   --game-memory: var(--palette-amber-500);
   --game-choice: var(--palette-green-500);
   --game-typing: var(--palette-purple-500);
+  --game-tabu: var(--palette-pink-500);
 
   /* Decorative sets (confetti, balloons, sticks) */
   --deco-1: var(--palette-coral-500);

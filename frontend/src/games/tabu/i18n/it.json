@@ -1,0 +1,26 @@
+{
+  "name": "Tabù",
+  "description": "Descrivi la parola senza dirla né dire la sua traduzione – gli altri indovinano ad alta voce.",
+  "settings": { "roundSeconds": "Durata del turno (secondi)" },
+  "setup": {
+    "intro": "Inserisci il nome di ogni giocatore. A turno, una persona descrive le parole mentre gli altri indovinano ad alta voce.",
+    "namePlaceholder": "Inserisci nome",
+    "add": "Aggiungi",
+    "remove": "Rimuovi {name}",
+    "needTwoPlayers": "Servono almeno 2 giocatori.",
+    "start": "Via"
+  },
+  "ready": { "passTo": "Passa il dispositivo a", "ready": "Pronto" },
+  "describing": {
+    "taboo": "Non dire:",
+    "skip": "Salta",
+    "correct": "Giusto",
+    "tally": "{correct} giuste · {skipped} saltate"
+  },
+  "turnOver": {
+    "title": "Il turno di {name} è finito",
+    "summary": "{correct} indovinate, {skipped} saltate",
+    "next": "Avanti"
+  },
+  "finished": { "winner": "{name} vince!", "words": "{n} parola | {n} parole" }
+}

@@ -28,6 +28,8 @@ export const router = createRouter({
       meta: { requiresAuth: true },
     },
 
+    { path: '/stats', component: () => import('@/pages/StatsPage.vue') },
+
     { path: '/activities', component: () => import('@/pages/ActivityListPage.vue'), meta: { requiresAuth: true } },
     { path: '/activities/new', component: () => import('@/pages/ActivityEditPage.vue'), meta: { requiresAuth: true } },
     {

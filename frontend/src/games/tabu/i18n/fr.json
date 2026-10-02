@@ -1,0 +1,26 @@
+{
+  "name": "Tabou",
+  "description": "Décris le mot sans le dire ni dire sa traduction – les autres devinent à voix haute.",
+  "settings": { "roundSeconds": "Durée de la manche (secondes)" },
+  "setup": {
+    "intro": "Entre le nom de chaque joueur·euse. À tour de rôle, une personne décrit des mots pendant que les autres devinent à voix haute.",
+    "namePlaceholder": "Entrer un nom",
+    "add": "Ajouter",
+    "remove": "Retirer {name}",
+    "needTwoPlayers": "Au moins 2 joueur·euses nécessaires.",
+    "start": "C'est parti"
+  },
+  "ready": { "passTo": "Passe l'appareil à", "ready": "Prêt·e" },
+  "describing": {
+    "taboo": "Ne pas dire :",
+    "skip": "Passer",
+    "correct": "Correct",
+    "tally": "{correct} corrects · {skipped} passés"
+  },
+  "turnOver": {
+    "title": "Le tour de {name} est terminé",
+    "summary": "{correct} devinés, {skipped} passés",
+    "next": "Suivant"
+  },
+  "finished": { "winner": "{name} gagne !", "words": "{n} mot | {n} mots" }
+}

@@ -1,6 +1,7 @@
 {
   "app": {
-    "name": "Plapperlapapp"
+    "name": "Plapperlapapp",
+    "sourceCode": "Quellcode auf GitHub"
   },
   "nav": {
     "activities": "Aktivitäten",
@@ -340,5 +341,12 @@
     "usedByOthers": "Wird in {n} Aktivität einer anderen Lehrperson verwendet – Änderungen wirken sich dort aus. | Wird in {n} Aktivitäten anderer Lehrpersonen verwendet – Änderungen wirken sich dort aus.",
     "mine": "Meine",
     "sharedWithMe": "Mit mir geteilt"
+  },
+  "stats": {
+    "title": "Nutzungsstatistik",
+    "users": "Lehrpersonen",
+    "words": "Wörter",
+    "totalPlays": "Gespielte Runden",
+    "byGame": "Nach Spiel"
   }
 }

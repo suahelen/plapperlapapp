@@ -1,0 +1,26 @@
+{
+  "name": "Tabu",
+  "description": "Describe the word without saying it or its translation – everyone else shouts out guesses.",
+  "settings": { "roundSeconds": "Round time (seconds)" },
+  "setup": {
+    "intro": "Enter every player's name. Taking turns, one person describes words while the others shout out guesses.",
+    "namePlaceholder": "Enter name",
+    "add": "Add",
+    "remove": "Remove {name}",
+    "needTwoPlayers": "At least 2 players needed.",
+    "start": "Start"
+  },
+  "ready": { "passTo": "Pass the device to", "ready": "Ready" },
+  "describing": {
+    "taboo": "Don't say:",
+    "skip": "Skip",
+    "correct": "Correct",
+    "tally": "{correct} correct · {skipped} skipped"
+  },
+  "turnOver": {
+    "title": "{name}'s turn is over",
+    "summary": "{correct} guessed correctly, {skipped} skipped",
+    "next": "Next"
+  },
+  "finished": { "winner": "{name} wins!", "words": "{n} word | {n} words" }
+}

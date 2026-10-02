@@ -15,6 +15,7 @@ import (
 	"plapperlapapp/internal/rooms"
 	"plapperlapapp/internal/sharing"
 	"plapperlapapp/internal/speech"
+	"plapperlapapp/internal/stats"
 	"plapperlapapp/internal/vocabulary"
 )
 
@@ -61,6 +62,12 @@ func NewRouter(cfg config.Config, db *pgxpool.Pool, hub *rooms.Hub) http.Handler
 		r.Post("/auth/logout", authH.Logout)
 
 		r.Get("/public/activities/{publicId}", actH.Public)
+
+		// Anonymous, aggregate-only usage stats: no user data.
+		statsH := stats.NewHandlers(stats.NewStore(db), auth.NewLimiter(60, time.Minute),
+			func(r *http.Request) string { return auth.ClientIP(r, cfg.TrustProxy) })
+		r.Get("/stats", statsH.Totals)
+		r.Post("/stats/play", statsH.RecordPlay)
 
 		// Multiplayer rooms: anonymous; players are identified by per-room tokens.
 		r.Post("/rooms", roomH.Create)
