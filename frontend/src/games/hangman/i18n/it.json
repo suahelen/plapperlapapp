@@ -1,0 +1,10 @@
+{
+  "name": "L'impiccato",
+  "description": "Indovina la parola lettera per lettera prima di finire i tentativi.",
+  "settings": {
+    "questionCount": "Numero di parole",
+    "maxMistakes": "Errori consentiti"
+  },
+  "letter": "Lettera {letter}",
+  "lost": "Tentativi finiti! La parola era: {word}"
+}

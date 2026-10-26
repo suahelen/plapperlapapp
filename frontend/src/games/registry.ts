@@ -7,6 +7,7 @@ import { typingGame } from './typing/definition'
 import { kaboomGame } from './kaboom/definition'
 import { battleshipGame } from './battleship/definition'
 import { tabuGame } from './tabu/definition'
+import { hangmanGame } from './hangman/definition'
 
 /**
  * All available games. Adding a game means creating its folder (component +
@@ -21,6 +22,7 @@ export const gameRegistry: Record<string, GameDefinition<any>> = {
   [multipleChoiceGame.id]: multipleChoiceGame,
   [typingGame.id]: typingGame,
   [tabuGame.id]: tabuGame,
+  [hangmanGame.id]: hangmanGame,
 }
 
 export function getGame(id: string): GameDefinition<any> | undefined {

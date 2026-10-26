@@ -1,0 +1,10 @@
+{
+  "name": "Le pendu",
+  "description": "Devine le mot lettre par lettre avant d'épuiser tes essais.",
+  "settings": {
+    "questionCount": "Nombre de mots",
+    "maxMistakes": "Erreurs autorisées"
+  },
+  "letter": "Lettre {letter}",
+  "lost": "Plus d'essais ! Le mot était : {word}"
+}

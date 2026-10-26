@@ -1,0 +1,10 @@
+{
+  "name": "Hangman",
+  "description": "Guess the word letter by letter before you run out of tries.",
+  "settings": {
+    "questionCount": "Number of words",
+    "maxMistakes": "Allowed mistakes"
+  },
+  "letter": "Letter {letter}",
+  "lost": "Out of tries! The word was: {word}"
+}

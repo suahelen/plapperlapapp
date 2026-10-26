@@ -1,0 +1,10 @@
+{
+  "name": "Galgenmännchen",
+  "description": "Errate das Wort Buchstabe für Buchstabe, bevor die Versuche aufgebraucht sind.",
+  "settings": {
+    "questionCount": "Anzahl Wörter",
+    "maxMistakes": "Erlaubte Fehler"
+  },
+  "letter": "Buchstabe {letter}",
+  "lost": "Keine Versuche mehr! Das Wort war: {word}"
+}

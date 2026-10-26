@@ -1,0 +1,10 @@
+{
+  "name": "Ahorcado",
+  "description": "Adivina la palabra letra por letra antes de agotar los intentos.",
+  "settings": {
+    "questionCount": "Número de palabras",
+    "maxMistakes": "Errores permitidos"
+  },
+  "letter": "Letra {letter}",
+  "lost": "¡Sin intentos! La palabra era: {word}"
+}
